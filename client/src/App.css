@@ -1,0 +1,138 @@
+.main-container {
+  padding: 3rem;
+  background-color: lightblue;
+}
+
+.main-heading {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+
+.image-container {
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.process {
+  background-color: whitesmoke;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.process__heading {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+
+.process__details {
+  text-align: center;
+}
+
+.process__upload-btn {
+  display: block;
+  margin: 2.5rem auto;
+  text-align: center;
+}
+
+.process__image {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+}
+
+.main-credit {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+/*novo*/
+
+.App {
+  text-align: center;
+  max-width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .left-side {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .left-side {
+  height: auto;
+  width: 100%;
+}
+.App .right-side {
+  height: auto;
+  width: 100%;
+}
+
+.App .left-side form {
+  height: fit-content;
+  background: white;
+  border: none;
+  border-radius: 4px;
+  width: 300px;
+  /*padding: 40px 10px;*/
+}
+
+.App .left-side form input {
+  margin: 1rem auto;
+  width: 200px;
+  outline: none;
+  cursor: pointer;
+  font: 0.8rem "PT Sans", Arial, sans-serif;
+  color: #5a5a5a;
+
+  background: transparent;
+}
+.App .left-side form .btn {
+  height: 40px;
+  width: 200px;
+  background: white;
+  border: 1px solid grey;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.App .left-side form .btn:hover {
+  color: white;
+  background: grey;
+}
+
+.App .left-side form .btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.App .left-side form .btn.widget-btn {
+  margin-top: 15px;
+  background: #800080;
+  border: 1px solid #800080;
+  color: #ffffff;
+}
+
+.App .left-side form .btn.widget-btn:hover {
+  margin-top: 15px;
+  background: #4b0082;
+  border: 1px solid #4b0082;
+  color: #ffffff;
+}
+
+.App .right-side .displayed-image {
+  height: 300px;
+  width: 300px;
+}
+
+.MuiGrid-root > .MuiGrid-grid-sm-6 > div > .postList>div>div>div>div>img{
+  height: auto
+}

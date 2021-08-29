@@ -1,0 +1,147 @@
+/*...........HEADER ....*/
+@media screen and (max-width: 600px) {
+  header > .MuiToolbar-root > .Header-logo-2 {
+    font-size: 20px;
+  }
+  header > .MuiToolbar-root > .SearchForm-search-4 {
+    margin-left: 2rem;
+  }
+  header
+    > .MuiToolbar-root
+    > .SearchForm-search-4
+    > .SearchForm-inputRoot-6
+    > .SearchForm-inputInput-7 {
+    margin: 0 auto;
+    padding: 3px;
+  }
+  header > .MuiToolbar-root > .SearchForm-search-4 > .SearchForm-searchIcon-5 {
+    display: none;
+  }
+
+  header > .MuiToolbar-gutters {
+    padding-right: 0px;
+  }
+
+  header > .MuiToolbar-root > .headerIcons {
+    padding-top: 0.5rem;
+    padding-right: -0.5rem;
+    padding-bottom: 0.2rem;
+  }
+  header > .MuiToolbar-root > .headerIcons > a {
+    margin-bottom: -0.2rem;
+    margin-top: -0.5rem;
+    display: flex;
+  }
+  header > .MuiToolbar-root > .headerIcons > a > button {
+    margin-left: -1rem;
+    margin-bottom: -0.2rem;
+  }
+  header > .MuiToolbar-root > .headerIcons > a > button > span > a {
+    margin-top: -0.1rem;
+  }
+  header > .MuiToolbar-root > .headerIcons > button {
+    padding: 1px;
+    border-top: 0.5px solid white;
+    border-radius: 0rem;
+    padding-top: 0.2px;
+    /*border: 1px solid white*/
+  }
+
+  /* .MuiToolbar-root > div > .MuiButtonBase-root {
+  }
+}*/
+
+  /*..................MAIN...*/
+
+  @media screen and (max-width: 600px) {
+    .MuiGrid-root > .MuiGrid-grid-sm-6 > div > .postList > .Profile {
+      visibility: hidden;
+    }
+
+    .MuiGrid-root > .MuiGrid-grid-sm-6 > div > .postList {
+      position: sticky;
+      padding-top: 2rem;
+    }
+    .MuiGrid-root
+      > .MuiGrid-grid-sm-6
+      > div
+      > .postList
+      > div
+      > div
+      > div
+      > div
+      > img {
+      height: auto;
+    }
+
+    .MuiGrid-root
+      > .MuiGrid-grid-sm-6
+      > div
+      > .postList
+      > div
+      > div
+      > div
+      > .App
+      .right-side
+      .displayed-image {
+      height: 200px;
+      width: 200px;
+    }
+  }
+
+  /*-......ARROW..*/
+  @media screen and (max-width: 600px) {
+    .MuiGrid-root
+      > .MuiGrid-grid-sm-6
+      > div
+      > .postList
+      > div
+      > button
+      > .MuiSvgIcon-root {
+      font-size: 3rem;
+    }
+  }
+
+  /*......FOOTER ....*/
+
+  @media screen and (max-width: 600px) {
+    .Footer > div > div > label {
+      display: none;
+    }
+
+    .Footer > div > div {
+      margin: 0 auto;
+      font-size: 0.8rem;
+      margin-left: 0.5rem;
+    }
+  }
+
+  /*NOT FOUND*/
+  @media screen and (max-width: 600px) {
+    .MuiGrid-root > .MuiGrid-grid-sm-6 > .NotFound {
+      margin-right: -13rem;
+      margin-left: -7rem;
+    }
+  }
+
+  /***...PROFILE ...*/
+  @media screen and (max-width: 600px) {
+    .MuiGrid-root > .MuiGrid-grid-sm-6 > div {
+      margin-top: 1rem;
+    }
+  }
+
+  /*LOGIN i registracija*/
+
+  @media screen and (max-width: 600px) {
+    .MuiGrid-root > .MuiGrid-grid-sm-6 > div > .Form {
+      margin-top: 2rem;
+      margin-right: -5.5rem;
+      margin-left: -4.5rem;
+    }
+
+    .MuiGrid-root > .MuiGrid-grid-sm-6 > div > .Form > .ThinkPic {
+      display: none;
+    }
+  }
+}
